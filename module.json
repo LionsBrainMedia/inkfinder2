@@ -1,0 +1,59 @@
+{
+  "id": "inkfinder2",
+  "title": "Inkfinder 2: Mark of the Harrow",
+  "description": "Harrow-themed magical tattoos.",
+  "url": "https://github.com/LionsBrainMedia/inkfinder2",
+  "version": "1.0",
+  "authors": [
+    {"name": "W. Brian Lane"}
+  ],
+  "compatibility": {
+    "minimum": "10.291",
+    "verified": "10.291"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.10.4"
+      }
+    }]
+  },
+  "flags": {
+  "inkfinder2": {
+    "pf2e-homebrew": {
+      "equipmentTraits": {
+        "curse": {
+          "label": "Curse",
+          "description": "This equipment transfers or bestows a curse."
+        },
+        "harrow": {
+          "label": "Harrow",
+          "description": "This tattoo depicts one of the 54 harrow cards."
+        }
+      }}}},
+  "packs": [{
+      "label": "Inkfinder 2 - Magical Tattoos",
+      "type": "Item",
+      "name": "inkfinder2-magical-tattoos",
+      "path": "./packs/inkfinder2-magical-tattoos.db",
+      "system": "pf2e",
+      "package": "inkfinder2",
+      "private": false
+    },
+    {
+      "label": "Inkfinder 2 - Feats",
+      "type": "Item",
+      "name": "inkfinder2-feats",
+      "path": "./packs/inkfinder2-feats.db",
+      "system": "pf2e",
+      "package": "inkfinder2",
+      "private": false
+    }
+  ],
+  "url": "https://github.com/LionsBrainMedia/inkfinder2",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/inkfinder2/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/inkfinder2/archive/refs/heads/main.zip"
+}

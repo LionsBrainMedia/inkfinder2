@@ -1,2 +1,2 @@
-# inkfinder2
-Foundry support for Inkfinder 2: Mark of the Harrow
+# inkfinder1
+Foundry VTT support for Lion's Brain Media's Inkfinder (1).
